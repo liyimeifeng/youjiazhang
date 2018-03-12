@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.youjiazhang.fragment.LearnChineseFragment"
+    android:padding="10dp">
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/shuchongzhijia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="书虫之家" />
+
+    <TextView
+        android:padding="10dp"
+
+        android:id="@+id/miaobishenghua"
+        android:text="妙笔生花"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/zuowensucai"
+            android:text="作文素材"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/huojiangwenzhang"
+            android:text="获奖文章"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/xinlinjinnang"
+        android:text="心灵锦囊"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/kewaituozhan"
+        android:text="课外拓展资料"
+        android:background="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

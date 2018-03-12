@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.li.youjiazhang.fragment.MyInforFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:background="#05cc14">
+        <ImageView
+            android:background="@mipmap/ic_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="优家长昵称"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="查看资料"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#3ae865">
+        <TextView
+            android:text="成长\n姓名"
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="一年级\n年级"
+            android:gravity="center_horizontal"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="15882040960\n学号"
+            android:gravity="center_horizontal"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/choose_course_class"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="选课报班"
+            android:gravity="center_horizontal"
+            android:drawableTop="@mipmap/ic_paper"/>
+
+        <TextView
+            android:text="课程表"
+            android:gravity="center_horizontal"
+            android:drawableTop="@mipmap/ic_paper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="调课转班"
+            android:gravity="center_horizontal"
+            android:drawableTop="@mipmap/ic_paper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="学习反馈"
+            android:gravity="center_horizontal"
+            android:drawableTop="@mipmap/ic_paper"            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="我的订单"
+            android:gravity="center_horizontal"
+            android:drawableTop="@mipmap/ic_paper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView
+            android:text="活动"
+            android:gravity="center_horizontal"
+            android:drawableTop="@mipmap/ic_paper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="校区查询"
+            android:gravity="center_horizontal"
+            android:drawableTop="@mipmap/ic_paper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:background="@mipmap/ic_launcher"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <View
+        android:background="#cac3c3"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_email"
+        android:gravity="center_vertical"
+        android:text="优家长教程" />
+    <TextView
+        android:text="关注的班级"
+        android:drawableLeft="@mipmap/ic_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"/>
+
+    <View
+        android:background="#cac3c3"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+    <TextView
+        android:text="优惠券"
+        android:drawableLeft="@mipmap/ic_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/textView"
+        android:drawableLeft="@mipmap/ic_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="我的消息" />
+    <TextView
+        android:id="@+id/textView2"
+        android:drawableLeft="@mipmap/ic_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="我的收藏" />
+
+    <View
+        android:background="#cac3c3"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+    <TextView
+        android:text="设置"
+        android:drawableLeft="@mipmap/ic_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"/>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.youjiazhang.fragment.LearnChineseFragment"
+    android:padding="10dp">
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/xuntao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="情商熏陶" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/huati"
+        android:text="刷刷话题"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/peiyang"
+        android:text="情商培养"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

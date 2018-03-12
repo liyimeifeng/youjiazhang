@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.youjiazhang.ClassifyActivity">
+
+    <include layout="@layout/toolbar_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ebebeb"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/entrance_information"
+                android:text="升学资讯"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/chinese_study"
+                android:text="语文学习"
+                android:textStyle="bold"
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/EQ_education"
+                android:text="情商教育"                android:textStyle="bold"
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/classify_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

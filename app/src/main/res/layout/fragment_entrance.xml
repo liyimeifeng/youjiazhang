@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.youjiazhang.fragment.LearnChineseFragment"
+    android:padding="10dp">
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/private_school"
+        android:text="私立学校"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/school_introduce"
+            android:text="学校简介"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/private_school_info"
+            android:text="私立学校信息"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/public_school"
+        android:text="私立学校"
+        android:padding="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/qingyang_district"
+            android:text="青羊区"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/jingjinag_district"
+            android:text="锦江区"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/chenghua_district"
+            android:text="成华区"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/jinniu_district"
+            android:text="金牛区"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/gaoxin_district"
+            android:text="高新区"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/wuhou_district"
+            android:text="武侯区"
+            android:background="#FFFFFF"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
