@@ -119,7 +119,7 @@ public class InteractionFragment extends Fragment implements AdapterView.OnItemS
         interactionList.clear();
         for (int j = 0; j < 30; j++) {
             Interaction interaction = new Interaction();
-            interaction.setPortrait(R.mipmap.ic_face);
+            interaction.setPortrait(R.mipmap.user_default_avatar);
             interaction.setName("张三三");
             interaction.setTime("2018-03-10");
             interaction.setQuestion("我孩子是八年级我要报八年级的班,我想问问........");

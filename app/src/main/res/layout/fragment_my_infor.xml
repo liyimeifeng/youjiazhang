@@ -13,7 +13,7 @@
         android:padding="20dp"
         android:background="#05cc14">
         <ImageView
-            android:background="@mipmap/ic_face"
+            android:background="@mipmap/user_default_avatar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <LinearLayout
@@ -71,26 +71,27 @@
             android:layout_weight="1"
             android:text="选课报班"
             android:gravity="center_horizontal"
-            android:drawableTop="@mipmap/ic_paper"/>
+            android:drawableTop="@mipmap/user_action0"/>
 
         <TextView
             android:text="课程表"
             android:gravity="center_horizontal"
-            android:drawableTop="@mipmap/ic_paper"
+            android:drawableTop="@mipmap/user_action1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <TextView
             android:text="调课转班"
             android:gravity="center_horizontal"
-            android:drawableTop="@mipmap/ic_paper"
+            android:drawableTop="@mipmap/user_action2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <TextView
             android:text="学习反馈"
             android:gravity="center_horizontal"
-            android:drawableTop="@mipmap/ic_paper"            android:layout_width="0dp"
+            android:drawableTop="@mipmap/user_action3"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
     </LinearLayout>
@@ -104,21 +105,21 @@
         <TextView
             android:text="我的订单"
             android:gravity="center_horizontal"
-            android:drawableTop="@mipmap/ic_paper"
+            android:drawableTop="@mipmap/user_action4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
         <TextView
             android:text="活动"
             android:gravity="center_horizontal"
-            android:drawableTop="@mipmap/ic_paper"
+            android:drawableTop="@mipmap/user_action5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
         <TextView
             android:text="校区查询"
             android:gravity="center_horizontal"
-            android:drawableTop="@mipmap/ic_paper"
+            android:drawableTop="@mipmap/user_action6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
@@ -138,12 +139,12 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableLeft="@mipmap/ic_email"
+        android:drawableLeft="@mipmap/user_item_icon0"
         android:gravity="center_vertical"
         android:text="优家长教程" />
     <TextView
         android:text="关注的班级"
-        android:drawableLeft="@mipmap/ic_email"
+        android:drawableLeft="@mipmap/user_item_icon1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"/>
@@ -154,20 +155,20 @@
         android:layout_height="7dp"/>
     <TextView
         android:text="优惠券"
-        android:drawableLeft="@mipmap/ic_email"
+        android:drawableLeft="@mipmap/user_item_icon2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"/>
     <TextView
         android:id="@+id/textView"
-        android:drawableLeft="@mipmap/ic_email"
+        android:drawableLeft="@mipmap/user_item_icon3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:text="我的消息" />
     <TextView
         android:id="@+id/textView2"
-        android:drawableLeft="@mipmap/ic_email"
+        android:drawableLeft="@mipmap/user_item_icon4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
@@ -179,7 +180,7 @@
         android:layout_height="7dp"/>
     <TextView
         android:text="设置"
-        android:drawableLeft="@mipmap/ic_email"
+        android:drawableLeft="@mipmap/user_item_icon5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"/>
