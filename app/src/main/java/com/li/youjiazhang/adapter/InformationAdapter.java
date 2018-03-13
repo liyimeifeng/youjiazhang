@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.li.youjiazhang.R;
-import com.li.youjiazhang.WebViewActivity;
+import com.li.youjiazhang.activity.WebViewActivity;
 import com.li.youjiazhang.loader.Myloader;
 import com.li.youjiazhang.model.Information;
 import com.youth.banner.Banner;

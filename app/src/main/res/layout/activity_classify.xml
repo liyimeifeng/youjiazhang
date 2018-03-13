@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.li.youjiazhang.ClassifyActivity">
+    tools:context="com.li.youjiazhang.activity.ClassifyActivity">
 
     <include layout="@layout/toolbar_layout"/>
     <LinearLayout

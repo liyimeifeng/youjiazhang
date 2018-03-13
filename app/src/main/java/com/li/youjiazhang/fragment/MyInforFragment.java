@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.li.youjiazhang.ChooseCourseClassActivity;
+import com.li.youjiazhang.activity.ChooseCourseClassActivity;
 import com.li.youjiazhang.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;

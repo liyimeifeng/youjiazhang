@@ -1,4 +1,4 @@
-package com.li.youjiazhang;
+package com.li.youjiazhang.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -6,6 +6,9 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
+
+import com.li.youjiazhang.BaseActivity;
+import com.li.youjiazhang.R;
 import com.li.youjiazhang.fragment.LearnChineseFragment;
 import com.li.youjiazhang.fragment.EQFragment;
 import com.li.youjiazhang.fragment.EntranceFragment;

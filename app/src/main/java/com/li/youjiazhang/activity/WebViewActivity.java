@@ -1,9 +1,13 @@
-package com.li.youjiazhang;
+package com.li.youjiazhang.activity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.li.youjiazhang.BaseActivity;
+import com.li.youjiazhang.R;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

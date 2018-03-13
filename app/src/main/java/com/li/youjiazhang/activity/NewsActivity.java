@@ -1,9 +1,11 @@
-package com.li.youjiazhang;
+package com.li.youjiazhang.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.li.youjiazhang.R;
 import com.li.youjiazhang.adapter.InformationAdapter;
 import com.li.youjiazhang.model.Information;
 import java.util.ArrayList;

@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.li.youjiazhang.NewsActivity;
+import com.li.youjiazhang.activity.NewsActivity;
 import com.li.youjiazhang.R;
 
 import butterknife.BindView;

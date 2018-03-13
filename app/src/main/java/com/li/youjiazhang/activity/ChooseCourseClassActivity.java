@@ -1,4 +1,4 @@
-package com.li.youjiazhang;
+package com.li.youjiazhang.activity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.li.youjiazhang.BaseActivity;
+import com.li.youjiazhang.R;
 import com.li.youjiazhang.adapter.ChooseClassAdapter;
 import com.li.youjiazhang.model.ChooseClassEntity;
 import java.util.ArrayList;

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.li.youjiazhang.WebViewActivity">
+    tools:context="com.li.youjiazhang.activity.WebViewActivity">
     <include layout="@layout/toolbar_layout" />
 <WebView
     android:id="@+id/webview"

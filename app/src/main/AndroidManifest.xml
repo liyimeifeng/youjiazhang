@@ -19,13 +19,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ClassifyActivity"
+            android:name=".activity.ClassifyActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".NewsActivity"
+        <activity android:name=".activity.NewsActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".WebViewActivity"
+        <activity android:name=".activity.WebViewActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ChooseCourseClassActivity"
+        <activity android:name=".activity.ChooseCourseClassActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
+import com.li.youjiazhang.activity.ClassifyActivity;
 import com.li.youjiazhang.fragment.InteractionFragment;
 import com.li.youjiazhang.fragment.MyInforFragment;
 import com.li.youjiazhang.fragment.NewsFragment;
