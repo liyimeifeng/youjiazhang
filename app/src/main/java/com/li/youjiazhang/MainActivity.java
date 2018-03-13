@@ -10,7 +10,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.li.youjiazhang.activity.ClassifyActivity;
 import com.li.youjiazhang.fragment.InteractionFragment;
 import com.li.youjiazhang.fragment.MyInforFragment;
@@ -21,7 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivity extends BaseActivity implements BottomNavigationBar.OnTabSelectedListener {
+public class MainActivity extends BaseActivity{
     private static final String TAG = "MainActivity";
     @BindView(R.id.news)
     TextView news;
@@ -107,10 +106,6 @@ public class MainActivity extends BaseActivity implements BottomNavigationBar.On
         }
     }
 
-    @Override
-    public void onTabSelected(int position) {
-    }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -133,16 +128,6 @@ public class MainActivity extends BaseActivity implements BottomNavigationBar.On
             default:
                 return super.onOptionsItemSelected(item);
         }
-    }
-
-    @Override
-    public void onTabUnselected(int position) {
-        Log.d(TAG, "onTabUnselected() called with: " + "position = [" + position + "]");
-    }
-
-    @Override
-    public void onTabReselected(int position) {
-
     }
 
 }

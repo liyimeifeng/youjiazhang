@@ -22,7 +22,7 @@
        <TextView
            android:gravity="center_horizontal"
            android:id="@+id/news"
-           android:drawableTop="@mipmap/ic_book"
+           android:drawableTop="@mipmap/main_tab0"
            android:text="资讯"
            android:layout_width="0dp"
            android:layout_weight="1"
@@ -31,7 +31,7 @@
            android:gravity="center_horizontal"
 
            android:id="@+id/study"
-           android:drawableTop="@mipmap/ic_book"
+           android:drawableTop="@mipmap/main_tab1"
            android:text="学习"
            android:layout_width="0dp"
            android:layout_weight="1"
@@ -40,7 +40,7 @@
            android:gravity="center_horizontal"
 
            android:id="@+id/interaction"
-           android:drawableTop="@mipmap/ic_book"
+           android:drawableTop="@mipmap/main_tab2"
            android:text="互动"
            android:layout_width="0dp"
            android:layout_weight="1"
@@ -48,15 +48,11 @@
        <TextView
            android:gravity="center_horizontal"
            android:id="@+id/myinfor"
-           android:drawableTop="@mipmap/ic_book"
+           android:drawableTop="@mipmap/main_tab3"
            android:text="我的"
            android:layout_width="0dp"
            android:layout_weight="1"
            android:layout_height="wrap_content" />
    </LinearLayout>
-    <!--<com.ashokvarma.bottomnavigation.BottomNavigationBar-->
-        <!--android:id="@+id/bottom_navigation_bar"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="bottom" />-->
+
 </LinearLayout>
