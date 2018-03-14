@@ -4,6 +4,10 @@ apply plugin: 'android-apt'
 android {
     compileSdkVersion 25
     buildToolsVersion "26.0.1"
+    dataBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.li.youjiazhang"
         minSdkVersion 19
