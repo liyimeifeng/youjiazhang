@@ -91,7 +91,6 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
                 }
                 transaction.replace(R.id.fragment, interactionFragment);
                 transaction.commit();
-
                 break;
             case R.id.myinfor:
                 getToolbar().setVisibility(View.GONE);
@@ -100,10 +99,7 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
                 }
                 transaction.replace(R.id.fragment, myInforFragment);
                 transaction.commit();
-
                 break;
-
-
         }
         return true;
     }
