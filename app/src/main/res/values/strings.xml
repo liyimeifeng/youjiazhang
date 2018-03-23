@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">家长</string>
     <string name="action_settings">点击进入</string>
+    <string name="news">资讯</string>
+    <string name="study">学习</string>
+    <string name="interaction">互动</string>
+    <string name="myinfor">我的</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

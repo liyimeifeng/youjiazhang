@@ -5,14 +5,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
+
+import java.sql.Time;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by lusl on 2018/3/11.
  */
 
-public abstract  class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
     private static final String TAG = "BaseActivity";
     private TextView mToolbarTitle;

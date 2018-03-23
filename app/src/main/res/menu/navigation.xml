@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/news"
+        android:icon="@mipmap/main_tab0"
+        android:orderInCategory="100"
+        android:title="@string/news"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/study"
+        android:icon="@mipmap/main_tab1"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/interaction"
+        android:icon="@mipmap/main_tab2"
+
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/myinfor"
+        android:icon="@mipmap/main_tab3"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+</menu>

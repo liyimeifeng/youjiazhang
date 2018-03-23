@@ -2,14 +2,17 @@ package com.li.youjiazhang;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
+
 import com.li.youjiazhang.activity.ClassifyActivity;
 import com.li.youjiazhang.fragment.InteractionFragment;
 import com.li.youjiazhang.fragment.MyInforFragment;
@@ -18,22 +21,17 @@ import com.li.youjiazhang.fragment.StudyFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 
-public class MainActivity extends BaseActivity{
+public class MainActivity extends BaseActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "MainActivity";
-    @BindView(R.id.news)
-    TextView news;
-    @BindView(R.id.study)
-    TextView study;
-    @BindView(R.id.interaction)
-    TextView interaction;
-    @BindView(R.id.myinfor)
-    TextView myinfor;
+    @BindView(R.id.navigation)
+    BottomNavigationView mNavigationView;
     private NewsFragment newFragment;
     private StudyFragment studyFragment;
     private InteractionFragment interactionFragment;
     private MyInforFragment myInforFragment;
+    private long currentTime;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +39,7 @@ public class MainActivity extends BaseActivity{
         ButterKnife.bind(this);
         getSearchView().setVisibility(View.VISIBLE);
         getToolbarTitle().setVisibility(View.GONE);
+        mNavigationView.setOnNavigationItemSelectedListener(this);
 
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
@@ -60,12 +59,12 @@ public class MainActivity extends BaseActivity{
         return false;
     }
 
-    @OnClick({R.id.news, R.id.study, R.id.interaction, R.id.myinfor})
-    public void onViewClicked(View view) {
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         FragmentManager fm = this.getSupportFragmentManager();
         //开启事务
         FragmentTransaction transaction = fm.beginTransaction();
-        switch (view.getId()) {
+        switch (item.getItemId()) {
             case R.id.news:
                 getToolbar().setVisibility(View.VISIBLE);
 
@@ -103,9 +102,11 @@ public class MainActivity extends BaseActivity{
                 transaction.commit();
 
                 break;
-        }
-    }
 
+
+        }
+        return true;
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -128,6 +129,21 @@ public class MainActivity extends BaseActivity{
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            if (System.currentTimeMillis() - currentTime > 2000) {
+                Toast.makeText(this, "再按一次返回退出应用", Toast.LENGTH_SHORT).show();
+                currentTime = System.currentTimeMillis();
+            }else {
+                finish();
+                System.exit(0);
+            }
+            return true;  //这句话很关键，返回true即表示事件自己消费，不再往下面传递
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
 }
